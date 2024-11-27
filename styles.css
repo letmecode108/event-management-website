@@ -1,0 +1,169 @@
+/* General Styles */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+  color: #0d47a1; /* Deep Blue */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for emphasis */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #e3f2fd; /* Light Blue */
+  color: #333;
+}
+
+/* Header */
+/* Header Styling */
+header {
+  background: linear-gradient(135deg, #004080, #0099cc); /* Brighter gradient */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between logo and text */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 50%; /* Optional: Circular logo */
+  border: 4px solid #ffffff; /* White border to make the logo pop */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+h1 {
+  font-size: 2.8em; /* Increased size for prominence */
+  font-weight: bold;
+  color: #fdfdfd; /* Bright white for better contrast */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /* Stronger shadow for visibility */
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #d9f7ff; /* Softer light blue */
+  margin: 5px 0 0;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #004d40; /* Deep Teal */
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: #ffffff;
+  display: block;
+  padding: 1em 2em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  background: #00796b; /* Teal Hover Effect */
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Section */
+section {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 1200px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #0d47a1; /* Deep Blue */
+  margin-bottom: 15px;
+  border-left: 5px solid #0d47a1;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+/* Form */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  background: #0d47a1; /* Deep Blue */
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+form button:hover {
+  background: #1565c0; /* Lighter Blue Hover Effect */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background: #004d40; /* Deep Teal */
+  color: white;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+/* Gallery */
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1); /* Larger zoom effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* More prominent shadow */
+}
